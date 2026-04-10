@@ -160,6 +160,13 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        td_a_ctrl: td_a_ctrl_ {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_A_CTRL";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&kp LCTRL>;
+        };
     };
 
     conditional_layers {
