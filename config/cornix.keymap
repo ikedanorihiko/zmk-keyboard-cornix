@@ -142,6 +142,15 @@
             #binding-cells = <0>;
             mods = <(MOD_RSFT)>;
         };
+
+        mod_morph_semicolon_colon: mod_morph_semicolon_colon_ {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_SEMICOLON_COLON";
+            bindings = <&kp SEMI>, <&kp COLON>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT)>;
+        };
     };
 
     conditional_layers {
