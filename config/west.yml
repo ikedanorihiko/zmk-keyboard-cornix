@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: hitsmaxft
       url-base: https://github.com/hitsmaxft
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
     - name: urob
       url-base: https://github.com/urob
     - name: janpfischer
@@ -31,8 +33,8 @@ manifest:
     #  revision: main
     #  clone-depth: 1
     - name: zmk-dongle-display
-      remote: hitsmaxft
-      revision: zephyr4
+      remote: englmaxi
+      revision: main
       clone-depth: 1
     #- name: zmk-dongle-screen
     #  remote: janpfischer
