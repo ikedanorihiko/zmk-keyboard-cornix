@@ -180,18 +180,6 @@
     combos {
         compatible = "zmk,combos";
 
-        cb_ltm {
-            bindings = <&kp ESC>;
-            key-positions = <2 4>;
-            layers = <0 1>;
-        };
-
-        cb_lm {
-            bindings = <&kp TAB>;
-            key-positions = <14 16>;
-            layers = <0 1>;
-        };
-
         cb_enter {
             bindings = <&kp RET>;
             key-positions = <21 19>;
@@ -206,6 +194,16 @@
         layer4 {
             bindings = <&kp N4>;
             key-positions = <5 6>;
+        };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <0 1>;
+        };
+
+        p {
+            bindings = <&kp P>;
+            key-positions = <11 10>;
         };
     };
 
