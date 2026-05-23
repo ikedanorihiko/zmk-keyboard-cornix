@@ -217,6 +217,16 @@
             bindings = <&kp P>;
             key-positions = <11 10>;
         };
+
+        Control {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <22 21>;
+        };
+
+        Window {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <21 20>;
+        };
     };
 
     keymap {
