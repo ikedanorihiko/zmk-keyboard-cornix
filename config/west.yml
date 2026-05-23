@@ -43,10 +43,10 @@ manifest:
 
 
     # Add this:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
+#    - name: zmk
+#      remote: zmkfirmware
+#      revision: main
+#      import: app/west.yml
     - name: prospector-zmk-module
       remote: prospector
       revision: v2.2.1  # Use v2.0.0 for ZMK ≤0.3 (Zephyr 3.x)
