@@ -274,10 +274,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp QUESTION    &kp DOUBLE_QUOTES  &kp EQUAL   &trans                      &kp CARET       &trans                  &trans  &trans         &kp UNDER       &kp UP_ARROW     &kp PERCENT  &kp MINUS
-&kp AT_SIGN     &kp SLASH          &kp DOLLAR  &trans                      &kp APOSTROPHE  &trans                  &trans  &kp HASH       &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp SEMI     &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp EXCLAMATION    &kp COLON   &mod_morph_semicolon_colon  &kp BACKSLASH   &trans  &trans  &trans  &trans  &kp AMPS       &kp DOWN_ARROW  &trans           &kp PG_UP    &kp RIGHT_SHIFT
-&none           &none              &none       &none                       &trans          &trans                  &trans  &kp LA(GRAVE)  &trans          &kp HOME         &kp PG_DN    &kp END
+&kp QUESTION    &kp DOUBLE_QUOTES  &kp EQUAL   &trans                      &kp CARET      &trans                  &trans  &trans         &kp UNDER       &kp UP_ARROW     &kp PERCENT  &kp MINUS
+&kp AT_SIGN     &kp SLASH          &kp DOLLAR  &kp APOS                    &kp PERCENT    &trans                  &trans  &kp HASH       &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp SEMI     &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp EXCLAMATION    &kp COLON   &mod_morph_semicolon_colon  &kp BACKSLASH  &trans  &trans  &trans  &trans  &kp AMPS       &kp DOWN_ARROW  &trans           &kp PG_UP    &kp RIGHT_SHIFT
+&mkp MB1        &none              &none       &none                       &trans         &trans                  &trans  &kp LA(GRAVE)  &trans          &kp HOME         &kp PG_DN    &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
