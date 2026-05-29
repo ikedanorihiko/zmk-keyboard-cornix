@@ -71,3 +71,15 @@ CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y
 CONFIG_ZMK_STUDIO=y
 CONFIG_ZMK_STUDIO_LOCKING=n
 CONFIG_ZMK_STUDIO_LOCK_ON_DISCONNECT=n
+
+# 追加
+
+# Prospector status advertisement (for layer visualization)
+CONFIG_ZMK_STATUS_ADVERTISEMENT=y
+CONFIG_ZMK_STATUS_ADV_KEYBOARD_NAME="Cornix TB"
+
+# Specify central side (IMPORTANT: Default is RIGHT, but our central is LEFT!)
+# Set to RIGHT to swap battery display order for Prospector
+CONFIG_ZMK_STATUS_ADV_CENTRAL_SIDE="LEFT"
+
+
