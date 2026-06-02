@@ -284,7 +284,7 @@
 &kp ESCAPE        &kp LC(LG(LEFT_ARROW))  &kp UP_ARROW    &kp LC(LG(RIGHT))  &trans             &trans                  &trans  &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE
 &kp HOME          &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp END            &trans                  &trans  &kp KP_DIVIDE    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &hold_tap ENTER RIGHT_SHIFT
 &kp LEFT_BRACKET  &kp LEFT_BRACE          &trans          &kp RIGHT_BRACE    &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans  &kp KP_PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_SHIFT
-&none             &none                   &none           &trans             &trans             &trans                  &trans  &kp F10          &kp KP_MINUS  &kp NUMBER_0  &kp PERIOD    &trans
+&mkp MB1          &none                   &none           &trans             &trans             &trans                  &trans  &kp F10          &kp KP_MINUS  &kp NUMBER_0  &kp PERIOD    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
