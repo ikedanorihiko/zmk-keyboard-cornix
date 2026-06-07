@@ -214,6 +214,11 @@
             bindings = <&mo 3>;
             key-positions = <15 14>;
         };
+
+        layer3 {
+            bindings = <&mo 3>;
+            key-positions = <41 27>;
+        };
     };
 
     keymap {
