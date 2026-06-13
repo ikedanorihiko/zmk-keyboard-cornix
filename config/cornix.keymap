@@ -252,7 +252,7 @@
 &mod_morph_esc_q        &kp W         &kp E         &kp R        &kp T      &trans                &trans  &kp Y        &kp U            &kp I        &kp O      &mod_morph_bs_p
 &hold_tap LCTRL A       &kp S         &kp D         &kp F        &kp G      &trans                &trans  &kp H        &kp J            &kp K        &kp L      &lt 3 ENTER
 &hold_tap LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B      &trans  &none  &none  &trans  &kp N        &kp M            &kp COMMA    &kp DOT    &hold_tap RIGHT_SHIFT SLASH
-&mkp MB1                &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &lt 4 TAB  &none                 &none   &lt 4 ENTER  &lt 2 BACKSPACE  &lt 7 MINUS  &kp EQUAL  &kp SEMI
+&mod_morph_mb           &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &lt 4 TAB  &none                 &none   &lt 4 ENTER  &lt 2 BACKSPACE  &lt 7 MINUS  &kp EQUAL  &kp SEMI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -313,7 +313,7 @@
 &kp ESCAPE        &kp LC(LG(LEFT_ARROW))  &kp UP_ARROW    &kp LC(LG(RIGHT))  &trans             &trans                  &trans  &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
 &kp HOME          &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp END            &trans                  &trans  &kp KP_DIVIDE    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
 &kp LEFT_BRACKET  &kp LEFT_BRACE          &trans          &kp RIGHT_BRACE    &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans  &kp KP_PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_SHIFT
-&mkp MB1          &none                   &none           &trans             &trans             &trans                  &trans  &kp F10          &kp KP_MINUS  &kp NUMBER_0  &kp PERIOD    &kp COLON
+&mod_morph_mb     &none                   &none           &trans             &trans             &trans                  &trans  &kp F10          &kp KP_MINUS  &kp NUMBER_0  &kp PERIOD    &kp COLON
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
