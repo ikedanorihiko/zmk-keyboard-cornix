@@ -219,8 +219,8 @@
             key-positions = <42 13>;
         };
 
-        layer2 {
-            bindings = <&mo 3>;
+        LeftClick {
+            bindings = <&mkp MB1>;
             key-positions = <15 14>;
         };
 
@@ -232,6 +232,11 @@
         layer4 {
             bindings = <&mo 4>;
             key-positions = <41 15>;
+        };
+
+        RightClick {
+            bindings = <&mkp MB2>;
+            key-positions = <14 13>;
         };
     };
 
